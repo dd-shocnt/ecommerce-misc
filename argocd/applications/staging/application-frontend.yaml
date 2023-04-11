@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ecommerce-frontend-staging
+  namespace: argocd
+spec:
+  destination:
+    namespace: ecommerce-staging
+    server: https://kubernetes.default.svc
+  project: ecommerce
+  source:
+    repoURL: https://github.com/dd-shocnt/ecommerce-workshop-frontend-manifests.git
+    path: overlays/staging
+    targetRevision: staging
+  syncPolicy:
+    automated:
+      selfHeal: true
