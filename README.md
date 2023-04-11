@@ -1,1 +1,1 @@
-# ecommerce-misc
+# ecommerce-workshop-misc
