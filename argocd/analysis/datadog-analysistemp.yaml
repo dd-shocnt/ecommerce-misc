@@ -6,7 +6,7 @@ metadata:
 spec:
   args:
   - name: service-name
-    name: version
+  - name: version
   metrics:
   - name: error-rate
     interval: 5m
