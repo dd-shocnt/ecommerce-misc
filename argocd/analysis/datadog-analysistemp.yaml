@@ -9,12 +9,12 @@ spec:
   - name: version
   metrics:
   - name: error-rate
-    interval: 5m
+    interval: 1m
     successCondition: default(result, 0) < 0.01
-    failureLimit: 3
+    failureLimit: 10
     provider:
       datadog:
-        interval: 5m
+        interval: 1m
         query: |
           sum:trace.flask.request.errors{env:prod,service:{{args.service-name}},version:{{args.version}}}.as_count() /
           sum:trace.flask.request.hits{env:prod,service:{{args.service-name}},version:{{args.version}}}.as_count()
