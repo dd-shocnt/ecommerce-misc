@@ -15,5 +15,5 @@ spec:
       datadog:
         interval: 5m
         query: |
-          sum:trace.flask.request.errors{env:prod,service:{{args.service-name}}}.as_rate() /
-          sum:trace.flask.request.hits{env:prod,service:{{args.service-name}}}.as_rate()
+          sum:trace.flask.request.errors{env:prod,service:{{args.service-name}},version:{{args.version}}}.as_rate() /
+          sum:trace.flask.request.hits{env:prod,service:{{args.service-name}},version:{{args.version}}}.as_rate()
