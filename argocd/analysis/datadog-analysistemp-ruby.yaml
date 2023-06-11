@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AnalysisTemplate
+metadata:
+  name: trace-error-rate-frontend
+  namespace: ecommerce
+spec:
+  args:
+  - name: version
+  metrics:
+  - name: error-rate
+    interval: 1m
+    successCondition: default(result, 0) < 0.01
+    count: 5  
+    failureLimit: 2
+    provider:
+      datadog:
+        interval: 1m
+        query: |
+          sum:trace.rack.request.errors{env:prod,service:store-frontend,version:{{args.version}}}.as_count() /
+          sum:trace.rack.request.hits{env:prod,service:store-frontend,version:{{args.version}}}.as_count()
