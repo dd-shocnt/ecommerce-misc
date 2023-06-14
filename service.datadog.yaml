@@ -1,7 +1,7 @@
 schema-version: v2.1
 dd-service: store-frontend
 team: frontend
-contacts: []
+contacts: sho.uchida@datagoghq.com
 application: ecommerce
 description: ""
 tier: ""
@@ -21,7 +21,7 @@ integrations: {}
 schema-version: v2.1
 dd-service: discounts-service
 team: discounts
-contacts: []
+contacts: sho.uchida@datagoghq.com
 application: ecommerce
 description: ""
 tier: ""
@@ -41,7 +41,7 @@ integrations: {}
 schema-version: v2.1
 dd-service: advertisements-service
 team: advertisements
-contacts: []
+contacts: sho.uchida@datagoghq.com
 application: ecommerce
 description: ""
 tier: ""
@@ -61,7 +61,7 @@ integrations: {}
 schema-version: v2.1
 dd-service: postgres
 team: dbm
-contacts: []
+contacts: sho.uchida@datagoghq.com
 application: ecommerce
 description: ""
 tier: ""
@@ -81,7 +81,7 @@ integrations: {}
 schema-version: v2.1
 dd-service: store-frontend-sqlite
 team: frontend
-contacts: []
+contacts: sho.uchida@datagoghq.com
 application: ecommerce
 description: ""
 tier: ""
@@ -93,7 +93,7 @@ integrations: {}
 schema-version: v2.1
 dd-service: store-frontend-cache
 team: frontend
-contacts: []
+contacts: sho.uchida@datagoghq.com
 application: ecommerce
 description: ""
 tier: ""
@@ -105,7 +105,7 @@ integrations: {}
 schema-version: v2.1
 dd-service: spree_webservice_prod
 team: frontend
-contacts: []
+contacts: sho.uchida@datagoghq.com
 application: ecommerce
 description: ""
 tier: ""
