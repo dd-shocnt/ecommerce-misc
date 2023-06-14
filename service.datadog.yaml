@@ -25,7 +25,8 @@ dd-service: discounts-service
 team: discounts
 contacts:
  - type: email
-   contact: sho.uchida@datagoghq.comapplication: ecommerce
+   contact: sho.uchida@datagoghq.com
+application: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -46,7 +47,8 @@ dd-service: advertisements-service
 team: advertisements
 contacts:
  - type: email
-   contact: sho.uchida@datagoghq.comapplication: ecommerce
+   contact: sho.uchida@datagoghq.com
+application: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -67,7 +69,8 @@ dd-service: postgres
 team: dbm
 contacts:
  - type: email
-   contact: sho.uchida@datagoghq.comapplication: ecommerce
+   contact: sho.uchida@datagoghq.com
+application: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -88,7 +91,8 @@ dd-service: store-frontend-sqlite
 team: frontend
 contacts:
  - type: email
-   contact: sho.uchida@datagoghq.comapplication: ecommerce
+   contact: sho.uchida@datagoghq.com
+application: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -101,7 +105,8 @@ dd-service: store-frontend-cache
 team: frontend
 contacts:
  - type: email
-   contact: sho.uchida@datagoghq.comapplication: ecommerce
+   contact: sho.uchida@datagoghq.com
+application: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -114,7 +119,8 @@ dd-service: spree_webservice_prod
 team: frontend
 contacts:
  - type: email
-   contact: sho.uchida@datagoghq.comapplication: ecommerce
+   contact: sho.uchida@datagoghq.com
+application: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
