@@ -1,7 +1,9 @@
 schema-version: v2.1
 dd-service: store-frontend
 team: frontend
-contacts: sho.uchida@datagoghq.com
+contacts:
+ - type: email
+   contact: sho.uchida@datagoghq.com
 application: ecommerce
 description: ""
 tier: ""
@@ -21,8 +23,9 @@ integrations: {}
 schema-version: v2.1
 dd-service: discounts-service
 team: discounts
-contacts: sho.uchida@datagoghq.com
-application: ecommerce
+contacts:
+ - type: email
+   contact: sho.uchida@datagoghq.comapplication: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -41,8 +44,9 @@ integrations: {}
 schema-version: v2.1
 dd-service: advertisements-service
 team: advertisements
-contacts: sho.uchida@datagoghq.com
-application: ecommerce
+contacts:
+ - type: email
+   contact: sho.uchida@datagoghq.comapplication: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -61,8 +65,9 @@ integrations: {}
 schema-version: v2.1
 dd-service: postgres
 team: dbm
-contacts: sho.uchida@datagoghq.com
-application: ecommerce
+contacts:
+ - type: email
+   contact: sho.uchida@datagoghq.comapplication: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -81,8 +86,9 @@ integrations: {}
 schema-version: v2.1
 dd-service: store-frontend-sqlite
 team: frontend
-contacts: sho.uchida@datagoghq.com
-application: ecommerce
+contacts:
+ - type: email
+   contact: sho.uchida@datagoghq.comapplication: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -93,8 +99,9 @@ integrations: {}
 schema-version: v2.1
 dd-service: store-frontend-cache
 team: frontend
-contacts: sho.uchida@datagoghq.com
-application: ecommerce
+contacts:
+ - type: email
+   contact: sho.uchida@datagoghq.comapplication: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
@@ -105,8 +112,9 @@ integrations: {}
 schema-version: v2.1
 dd-service: spree_webservice_prod
 team: frontend
-contacts: sho.uchida@datagoghq.com
-application: ecommerce
+contacts:
+ - type: email
+   contact: sho.uchida@datagoghq.comapplication: ecommerce
 description: ""
 tier: ""
 lifecycle: ""
