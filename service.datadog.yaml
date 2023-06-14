@@ -17,3 +17,64 @@ links:
    url: https://github.com/dd-shocnt/ecommerce-workshop-frontend-manifests
 tags: []
 integrations: {}
+---
+schema-version: v2.1
+dd-service: discounts-service
+team: discounts
+contacts: []
+application: ecommerce
+description: ""
+tier: ""
+lifecycle: ""
+links: 
+ - name: Source
+   type: repo
+   provider: github
+   url: https://github.com/dd-shocnt/ecommerce-workshop-discounts
+ - name: Manifest
+   type: repo
+   provider: github
+   url: https://github.com/dd-shocnt/ecommerce-workshop-discounts-manifests
+tags: []
+integrations: {}
+---
+schema-version: v2.1
+dd-service: advertisements-service
+team: advertisements
+contacts: []
+application: ecommerce
+description: ""
+tier: ""
+lifecycle: ""
+links: 
+ - name: Source
+   type: repo
+   provider: github
+   url: https://github.com/dd-shocnt/ecommerce-workshop-advertisement
+ - name: Manifest
+   type: repo
+   provider: github
+   url: https://github.com/dd-shocnt/ecommerce-workshop-advertisement-manifests
+tags: []
+integrations: {}
+---
+schema-version: v2.1
+dd-service: postgres
+team: dbm
+contacts: []
+application: ecommerce
+description: ""
+tier: ""
+lifecycle: ""
+links: 
+ - name: Source
+   type: repo
+   provider: github
+   url: https://github.com/dd-shocnt/ecommerce-workshop-misc/tree/main/db
+ - name: Manifest
+   type: repo
+   provider: github
+   url: https://github.com/dd-shocnt/ecommerce-workshop-misc/tree/main/db
+tags: []
+integrations: {}
+
