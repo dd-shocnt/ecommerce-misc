@@ -1,0 +1,19 @@
+schema-version: v2.1
+dd-service: store-frontend
+team: frontend
+contacts: []
+application: ecommerce
+description: ""
+tier: ""
+lifecycle: ""
+links: 
+ - name: Source
+   type: repo
+   provider: github
+   url: https://github.com/dd-shocnt/ecommerce-workshop-frontend
+ - name: Manifest
+   type: repo
+   provider: github
+   url: https://github.com/dd-shocnt/ecommerce-workshop-frontend-manifests
+tags: []
+integrations: {}
