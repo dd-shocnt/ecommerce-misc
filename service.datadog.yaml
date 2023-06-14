@@ -77,4 +77,39 @@ links:
    url: https://github.com/dd-shocnt/ecommerce-workshop-misc/tree/main/db
 tags: []
 integrations: {}
-
+---
+schema-version: v2.1
+dd-service: store-frontend-sqlite
+team: frontend
+contacts: []
+application: ecommerce
+description: ""
+tier: ""
+lifecycle: ""
+links: []
+tags: []
+integrations: {}
+---
+schema-version: v2.1
+dd-service: store-frontend-cache
+team: frontend
+contacts: []
+application: ecommerce
+description: ""
+tier: ""
+lifecycle: ""
+links: []
+tags: []
+integrations: {}
+---
+schema-version: v2.1
+dd-service: spree_webservice_prod
+team: frontend
+contacts: []
+application: ecommerce
+description: ""
+tier: ""
+lifecycle: ""
+links: []
+tags: []
+integrations: {}
